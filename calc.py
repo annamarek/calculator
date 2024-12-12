@@ -5,6 +5,9 @@ class Calculator:
 
     def Addition(self):
         return f"{self._a} + {self._b} = {self._a+self._b}"
+    def Subtraction(self):
+        return f"{self._a} - {self._b} = {self._a-self._b}"
 
 c = Calculator(3,5)
 print(c.Addition())
+print(c.Subtraction())
